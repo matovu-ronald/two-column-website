@@ -1,0 +1,135 @@
+body {
+    background-color: beige;
+    color: #111;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    border: 1px solid black;
+    height: 120px;
+    position: relative;
+    background-color: dimgray;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+#logo div {
+    font-size: 30px;
+}
+
+#search {
+    position: absolute;
+    width: 150px;
+    bottom: 5px;
+    right: 150px;
+    z-index: 50;
+}
+
+#navbar ul {
+    position: absolute;
+    background-color: darkgray;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    list-style: none;
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar a {
+    line-height: 100%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    background-color: black;
+
+}
+
+#navbar a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+#maincontainer {
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#content {
+    border: 1px solid black;
+    width: 66%;
+    float: left;
+    padding: 10px 0 10px 10px;
+}
+
+#sidebar {
+    background-color: #333;
+    border: 1px solid black;
+    width: 32%;
+    float: right;
+    
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    background-color: #222;
+    color: azure;
+    
+}
+
+#footer section {
+    padding: 10px;
+    width: 30%;
+    height: 100%;
+}
+
+#footer section:first-child {
+    float: left;
+    background-color: red;
+}
+
+#footer section:nth-child(2) {
+    background-color: green;
+    float: right;
+}
+
+#footer section:last-child {
+    background-color: blue;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
