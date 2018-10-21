@@ -88,6 +88,7 @@ a:hover {
     width: 66%;
     float: left;
     padding: 10px 0 10px 10px;
+    text-align: center;
 }
 
 #sidebar {
@@ -95,7 +96,7 @@ a:hover {
     border: 1px solid black;
     width: 32%;
     float: right;
-    
+
 }
 
 #footer {
@@ -106,7 +107,7 @@ a:hover {
     height: 200px;
     background-color: #222;
     color: azure;
-    
+
 }
 
 #footer section {
@@ -132,4 +133,48 @@ a:hover {
 
 img {
     max-width: 100%;
+}
+
+/* Media Screens */
+@media screen and (max-width: 840px) {
+    #header {
+        background-color: #444;
+        height: auto;
+    }
+
+    #logo {
+        position: static;
+        margin: 5px;
+    }
+
+    #navbar ul {
+        position: static;
+    }
+
+    #search {
+        height: 30px;
+        top: 5px;
+    }
+
+    #content {
+        width: 100%;
+        margin: 0;
+        float: left;
+    }
+
+    #sidebar {
+        width: 100%;
+        margin: 0;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #wrapper {
+        width: 480px;
+    }
+
+    #search {
+        right: 10px;
+    }
 }
